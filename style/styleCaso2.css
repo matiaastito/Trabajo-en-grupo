@@ -1,0 +1,78 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    width: 960px;
+    height: 1120px;
+    margin: auto;
+    position: relative;
+}
+
+header {
+    background-color: grey;
+    height: 200px;
+    width: 960px;
+    top: 0;
+    left: 0px;
+    position: relative;
+
+}               
+
+nav {
+    background-color: pink;
+    height: 60px;
+    width: 960px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+main {
+    background-color: greenyellow;
+    height: 700px;
+    width: 680px;
+    overflow: hidden;
+    position: absolute;
+    top:300px;
+    left: 0px;
+
+}
+
+article {
+    background-color: blue;
+    height: 25%;
+    width: 90%;
+    margin-left: 5%;
+   margin-top: 5%;
+    
+    
+
+}
+
+aside {
+    background-color: darkcyan;
+    height: 700px;
+    position: absolute;
+    width: 260px;
+    top: 300px;
+    right: 0px;
+
+}
+
+footer {
+    background-color: orange;
+    height: 100px;
+    width: 960px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: antiquewhite;
+}

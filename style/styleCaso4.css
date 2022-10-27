@@ -1,0 +1,99 @@
+.container{
+    height:595px ;
+    width: 950px;
+    
+}
+
+header{
+    background-color: rgb(20, 11, 11);
+    height: 150px;
+    position: relative;
+
+}
+
+div.headerBox{
+    position: absolute;
+    background-color: grey;
+    height: 100px;
+    width: 150px;
+    margin: 30px;
+
+}
+
+nav{
+    height: 35px;
+    background-color: greenyellow;
+
+}
+
+main{
+    height: 380px;
+    background-color: grey;
+    position: relative;
+}
+
+section.box1{
+    position: absolute;
+    background-color: lightslategrey;
+    height: 230px;
+    width: 200px;
+    margin: 30px;
+
+}
+
+section.box2{
+    position: absolute;
+    background-color: lightslategrey;
+    height: 230px;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 260px;
+
+
+
+}
+
+article.box1{
+    background-color: white;
+    position: absolute;
+    width: 130px;
+    height: 200px;
+    margin: 15px;
+
+}
+
+article.box2{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 160px;
+
+}
+
+section.box3{
+    position: absolute;
+    background-color: lightslategrey;
+    height: 230px;
+    width: 250px;
+    margin-left: 670px;
+    margin-top: 30px;
+}
+
+
+section.box4{
+    position: absolute;
+    background-color: lightslategrey;
+    height: 90px;
+    width: 890px;
+    margin-top: 275px;
+    margin-left: 30px;
+
+
+}
+
+footer{
+    height: 30px;
+    background-color:hsl(180, 3%, 17%);
+}
